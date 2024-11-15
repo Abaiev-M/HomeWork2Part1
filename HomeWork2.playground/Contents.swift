@@ -153,6 +153,31 @@ print("\nРозділ 1.3 Псевдоніми\n")
 
  */
 
+typealias Pressure = Double
+typealias Humidity = Int
+typealias Temperature = Float
+
+var pressure: Pressure = 1030
+var humidity: Humidity = 70
+var temperature: Temperature = 7
+
+print("Погода вчора: ")
+print("Тиск: \(pressure) hPa")
+print("Вологість: \(humidity) %")
+print("Температура: \(temperature) C")
+
+pressure = 1010
+humidity = 50
+temperature = 14
+
+print("\nПогода сьогодні:")
+print("Тиск: \(pressure) hPa")
+print("Вологість: \(humidity) %")
+print("Температура: \(temperature) C")
+
+
+print("\nРозділ 1.4 Кортежі\n")
+
 
 
 /*
