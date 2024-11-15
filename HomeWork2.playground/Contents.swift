@@ -168,7 +168,7 @@ print("Температура: \(temperature) C")
 
 pressure = 1010
 humidity = 50
-temperature = 14
+temperature = 13
 
 print("\nПогода сьогодні:")
 print("Тиск: \(pressure) hPa")
