@@ -43,12 +43,10 @@ print("Вік хатньої тварини: \(age) років")
 print("Хатня тварина голодна: \(isHungry)")
 
 
-
+print("\nРозділ 1.2 Змінні\n")
 
 /*
 
- print("\nРозділ 1.2 Змінні\n")
- 
  Розділ 1.2 - Змінні
 
  1 Оголосити 6 змінних із будь-якими значеннями для опису користувача
@@ -88,22 +86,32 @@ print("Хатня тварина голодна: \(isHungry)")
      ...
 
  */
+var firstUserName: String = "Robert"
+var lastUserName: String = "Ozborn"
+var ageUser: UInt8 = 56
+var heightUser: UInt8 = 178
+var weightUser: Float = 77.5
+var isMarrige: Bool = true
 
 print("Інформація за 2018 р.:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(firstUserName)")
+print("Прізвище: \(lastUserName)")
+print("Вік: \(ageUser)")
+print("зріст: \(heightUser) см")
+print("Вага: \(weightUser) кг")
+print("У шлюбі: \(isMarrige) ")
+
+isMarrige = false
+weightUser = 81
+ageUser = 62
 
 print("\nІнформація за поточний рік:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(firstUserName)")
+print("Прізвище: \(lastUserName)")
+print("Вік: \(ageUser)")
+print("зріст: \(heightUser) см")
+print("Вага: \(weightUser) кг")
+print("У шлюбі: \(isMarrige) ")
 
 
 print("\nРозділ 1.3 Псевдоніми\n")
@@ -145,18 +153,7 @@ print("\nРозділ 1.3 Псевдоніми\n")
 
  */
 
-print("Погода вчора:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
 
-print("\nПогода сьогодні:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
-
-
-print("\nРозділ 1.4 Кортежі\n")
 
 /*
 
